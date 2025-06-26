@@ -119,7 +119,7 @@ const Pricing = () => {
                 </div>
               </div>
 
-              <div className="mt-6 text-center sm:mt-8">
+              <div id="Register" className="mt-6 text-center sm:mt-8">
                 <Link to="/register">
                   <Button 
                     size="lg" 
