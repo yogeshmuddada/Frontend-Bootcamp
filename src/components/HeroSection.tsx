@@ -6,7 +6,7 @@ import { ExternalLink, Users, Calendar, Star } from "lucide-react";
 
 const HeroSection = () => {
   const scrollToEnroll = () => {
-    const enrollSection = document.getElementById('pricing');
+    const enrollSection = document.getElementById('Register');
     enrollSection?.scrollIntoView({ behavior: 'smooth' });
   };
 
