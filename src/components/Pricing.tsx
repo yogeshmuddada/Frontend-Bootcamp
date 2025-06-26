@@ -66,7 +66,7 @@ const Pricing = () => {
                 </div>
 
                 {/* Schedule & Details */}
-                <div className="space-y-4 sm:space-y-6">
+                <div  id="Register" className="space-y-4 sm:space-y-6">
                   <div className="bg-gray-50 rounded-2xl p-4 sm:p-6">
                     <h4 className="font-bold text-gray-900 mb-3 flex items-center text-sm sm:text-base sm:mb-4">
                       <Calendar className="w-4 h-4 mr-2 text-bootcamp-blue sm:w-5 sm:h-5" />
@@ -119,7 +119,7 @@ const Pricing = () => {
                 </div>
               </div>
 
-              <div id="Register" className="mt-6 text-center sm:mt-8">
+              <div className="mt-6 text-center sm:mt-8">
                 <Link to="/register">
                   <Button 
                     size="lg" 
